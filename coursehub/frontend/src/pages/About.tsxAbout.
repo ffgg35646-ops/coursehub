@@ -1,1 +1,58 @@
+import PageHeader from "@/components/layout/PageHeader";
 
+function About() {
+  return (
+    <main>
+      <PageHeader
+        title="About CourseHub"
+        description="Learn more about our mission and platform."
+      />
+
+      <section className="container mx-auto px-4 py-12">
+        <div className="mx-auto max-w-4xl space-y-8">
+
+          <div>
+            <h2 className="mb-4 text-3xl font-bold">
+              Our Mission
+            </h2>
+
+            <p className="text-gray-600 leading-8">
+              CourseHub is an online learning platform created to help
+              students and professionals improve their skills through
+              high-quality courses taught by experienced instructors.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="mb-4 text-3xl font-bold">
+              What We Offer
+            </h2>
+
+            <ul className="list-disc space-y-3 pl-6 text-gray-600">
+              <li>Professional online courses.</li>
+              <li>Expert instructors.</li>
+              <li>Flexible self-paced learning.</li>
+              <li>Progress tracking.</li>
+              <li>Certificates of completion.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="mb-4 text-3xl font-bold">
+              Why Choose Us?
+            </h2>
+
+            <p className="text-gray-600 leading-8">
+              We focus on delivering practical knowledge with an excellent
+              learning experience, modern technology, and continuous
+              platform improvements.
+            </p>
+          </div>
+
+        </div>
+      </section>
+    </main>
+  );
+}
+
+export default About;
