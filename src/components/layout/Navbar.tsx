@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookOpen, Menu, User } from "lucide-react";
+import { BookOpen, Menu, User, Award } from "lucide-react";
 
 function Navbar() {
   return (
