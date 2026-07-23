@@ -5,12 +5,12 @@ function Certificates() {
     <main>
       <PageHeader
         title="Certificates"
-        description="Your earned certificates."
+        description="View all your earned certificates."
       />
 
       <section className="container mx-auto px-4 py-10">
-        <div className="rounded-xl border border-gray-700 bg-gray-900 p-8 text-center">
-          <h2 className="text-2xl font-bold text-white">
+        <div className="rounded-2xl border border-gray-700 bg-gray-900 p-10 text-center">
+          <h2 className="text-3xl font-bold text-white">
             No certificates yet
           </h2>
 
